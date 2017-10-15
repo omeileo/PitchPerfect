@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RecordAudioViewController.swift
 //  PitchPerfect
 //
 //  Created by Jase-Omeileo West on 10/15/17.
@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController
+class RecordAudioViewController: UIViewController
 {
     @IBOutlet weak var recordingStackView: UIStackView!
     @IBOutlet weak var recordButton: UIButton!
@@ -38,7 +38,9 @@ class ViewController: UIViewController
         else
         {
             //stop recording
-            
+            audioRecorder.stop()
+            let audioSession = AVAudioSession.sharedInstance()
+            try! audioSession.setActive(false)
             
             //navigate to playback screen
         }
