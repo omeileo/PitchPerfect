@@ -68,7 +68,7 @@ class RecordAudioViewController: UIViewController, AVAudioRecorderDelegate
     func adjustUI()
     {
         UIView.animate(withDuration: 0.6) {
-            self.recordingStackViewYCoord.constant = 120
+            self.recordingStackViewYCoord.constant = 100
             self.recordButtonWidth.constant -= 90
             self.recordButtonHeight.constant -= 90
             
