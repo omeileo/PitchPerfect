@@ -11,6 +11,8 @@
 		F33926A91F94582600458551 /* PlaybackAudioViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33926A81F94582600458551 /* PlaybackAudioViewController+Audio.swift */; };
 		F33926B11F9509C400458551 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F33926B01F9509C400458551 /* Default-568h@2x.png */; };
 		F33926B51F958A8500458551 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33926B41F958A8500458551 /* UIViewController+Utils.swift */; };
+		F37694541F965C99003C4325 /* RecordAudioViewController+AVAudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37694531F965C99003C4325 /* RecordAudioViewController+AVAudioRecorder.swift */; };
+		F37694561F965E77003C4325 /* RecordAudioViewController+UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37694551F965E77003C4325 /* RecordAudioViewController+UIConfiguration.swift */; };
 		F397A4961F939FBD008C9D8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397A4951F939FBD008C9D8A /* AppDelegate.swift */; };
 		F397A4981F939FBD008C9D8A /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397A4971F939FBD008C9D8A /* RecordAudioViewController.swift */; };
 		F397A49B1F939FBD008C9D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F397A4991F939FBD008C9D8A /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 		F33926A81F94582600458551 /* PlaybackAudioViewController+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaybackAudioViewController+Audio.swift"; sourceTree = "<group>"; };
 		F33926B01F9509C400458551 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F33926B41F958A8500458551 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		F37694531F965C99003C4325 /* RecordAudioViewController+AVAudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordAudioViewController+AVAudioRecorder.swift"; sourceTree = "<group>"; };
+		F37694551F965E77003C4325 /* RecordAudioViewController+UIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordAudioViewController+UIConfiguration.swift"; sourceTree = "<group>"; };
 		F397A4921F939FBD008C9D8A /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F397A4951F939FBD008C9D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F397A4971F939FBD008C9D8A /* RecordAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordAudioViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				F397A4971F939FBD008C9D8A /* RecordAudioViewController.swift */,
+				F37694551F965E77003C4325 /* RecordAudioViewController+UIConfiguration.swift */,
+				F37694531F965C99003C4325 /* RecordAudioViewController+AVAudioRecorder.swift */,
 			);
 			path = "Record Audio";
 			sourceTree = "<group>";
@@ -115,9 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				F33926AD1F95095900458551 /* Utils */,
-				F33926AC1F95095200458551 /* Assets */,
-				F33926AB1F95094900458551 /* Storyboards */,
 				F33926AA1F95093A00458551 /* Controller */,
+				F33926AB1F95094900458551 /* Storyboards */,
+				F33926AC1F95095200458551 /* Assets */,
 				F397A4951F939FBD008C9D8A /* AppDelegate.swift */,
 				F397A4A11F939FBD008C9D8A /* Info.plist */,
 			);
@@ -202,6 +208,8 @@
 			files = (
 				F33926A71F942D5A00458551 /* PlaybackAudioViewController.swift in Sources */,
 				F397A4981F939FBD008C9D8A /* RecordAudioViewController.swift in Sources */,
+				F37694541F965C99003C4325 /* RecordAudioViewController+AVAudioRecorder.swift in Sources */,
+				F37694561F965E77003C4325 /* RecordAudioViewController+UIConfiguration.swift in Sources */,
 				F397A4961F939FBD008C9D8A /* AppDelegate.swift in Sources */,
 				F33926A91F94582600458551 /* PlaybackAudioViewController+Audio.swift in Sources */,
 				F33926B51F958A8500458551 /* UIViewController+Utils.swift in Sources */,
